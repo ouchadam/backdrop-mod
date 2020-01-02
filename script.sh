@@ -23,7 +23,7 @@ $apktool d -f "$target_apk" -o $tmp_dir
 patches=`ls $working_dir/patches/*.patch`
 for patchFile in $patches
 do
-	patch -u -d $tmp_dir -p0 < $patchFile
+  patch -u -d $tmp_dir -p0 < $patchFile
 done
 
 # create signing key
