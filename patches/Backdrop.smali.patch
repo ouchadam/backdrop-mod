@@ -1,0 +1,12 @@
+--- smali/com/google/android/backdrop/Backdrop.smali	 
++++ smali/com/google/android/backdrop/Backdrop.smali
+@@ -424,7 +424,8 @@
+     .line 128
+     nop
+ 
+-    invoke-virtual {v0, p1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
++    const-string v1, "https://clients3.google.com/cast/chromecast/home"
++    invoke-virtual {v0, v1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+ 
+     goto :goto_6
+ 

@@ -1,0 +1,17 @@
+--- apktool.yml
++++ apktool.yml
+@@ -9,7 +9,7 @@
+ isFrameworkApk: false
+ packageInfo:
+   forcedPackageId: '127'
+-  renameManifestPackage: null
++  renameManifestPackage: 'com.github.ouchadam.backdropmod'
+ sdkInfo:
+   minSdkVersion: '21'
+   targetSdkVersion: '28'
+@@ -23,4 +23,4 @@
+ version: 2.4.0
+ versionInfo:
+   versionCode: '1004004'
+-  versionName: 1.4.4
++  versionName: 1.4.4-MOD
