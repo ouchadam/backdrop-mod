@@ -10,7 +10,7 @@ Google backdrop without the Chromecast built in message, also kind of fixes the 
 Using [apk-patcher](https://github.com/ouchadam/apk-patcher)
 
 ```
-yarn install apk-patcher
+yarn global add apk-patcher
 apk-patcher -i path/to/backdrop.apk -p path/to/dir/containing/patches
 ```
 
