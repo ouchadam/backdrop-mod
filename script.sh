@@ -36,7 +36,7 @@ $apktool b -f $tmp_dir -o $unaligned_output_apk_name
 $zipalign -v 4 $unaligned_output_apk_name output-unsigned.apk
 cp output-unsigned.apk output-signed.tmp
 
-$apksigner sign --ks ~/.android/debug.keystore --ks-key-alias androiddebugkey --ks-pass pass:android output-signed.tmp
+$apksigner sign --ks $working_dir/key.keystore --ks-key-alias android --ks-pass pass:android output-signed.tmp
 mv output-signed.tmp output-signed.apk
 
 rm $unaligned_output_apk_name
