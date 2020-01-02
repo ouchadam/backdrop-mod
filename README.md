@@ -3,17 +3,19 @@ Google backdrop without the Chromecast built in message, also kind of fixes the 
 
 ### Prerequisites 
 
-- Java
 - [com.google.android.backdrop 1.4.4](https://play.google.com/store/apps/details?id=com.google.android.backdrop&hl=en_GB) 
 
 ### Usage
 
+Using [apk-patcher](https://github.com/ouchadam/apk-patcher)
+
 ```
-chmod +x script.sh
-./script path/to/backdrop.apk
+yarn install apk-patcher
+apk-patcher -i path/to/backdrop.apk -p path/to/dir/containing/patches
 ```
 
-The script will output a signed and unsigned apk with the patches applied.
+[Or standalone](https://github.com/ouchadam/backdrop-mod/tree/standalone)
+
 
 ### Deets
 
