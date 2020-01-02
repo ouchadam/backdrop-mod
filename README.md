@@ -13,6 +13,8 @@ chmod +x script.sh
 ./script path/to/backdrop.apk
 ```
 
+The script will output a signed and unsigned apk with the patches applied.
+
 ### Deets
 
 The script will decompile the given apk and apply [these patches](https://github.com/ouchadam/backdrop-mod/tree/master/patches) then repackage, recompile and resign with a new key.
