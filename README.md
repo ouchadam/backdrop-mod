@@ -3,8 +3,8 @@ Google backdrop without the Chromecast built in message
 
 ### Prerequisites 
 
-Java
-[com.google.android.backdrop 1.4.4](https://play.google.com/store/apps/details?id=com.google.android.backdrop&hl=en_GB) 
+- Java
+- [com.google.android.backdrop 1.4.4](https://play.google.com/store/apps/details?id=com.google.android.backdrop&hl=en_GB) 
 
 ### Usage
 
