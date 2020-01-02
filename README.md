@@ -1,5 +1,5 @@
 # backdrop-mod
-Google backdrop without the Chromecast built in message
+Google backdrop without the Chromecast built in message, also kind of fixes the `home` integration, it's a bit flaky but working~.
 
 ### Prerequisites 
 
