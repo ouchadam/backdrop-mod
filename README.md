@@ -19,8 +19,6 @@ apk-patcher -i path/to/backdrop.apk -p path/to/dir/containing/patches
 
 ### Deets
 
-The script will decompile the given apk and apply the *.patch files then repackage, recompile and resign with a new key.
-
 The backdrop apk is simply a wrapper around a webview which hits https://clients3.google.com/cast/chromecast/home?iv=atv
 In the case of androidtv (chromecast built-in) all we need to do is remove the `iv=atv` parameter to remove the chromecast messaging.
 
